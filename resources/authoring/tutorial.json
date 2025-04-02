@@ -1,0 +1,218 @@
+{
+  "levels":[
+    {
+      "level": 0,
+      "missions": [
+        {
+          "mission": 0,
+          "challenges":[
+            {
+              "challenge": 0,
+              "steps": [
+                {
+                  "element": "geniblocks genome",
+                  "text": "Chromosomes",
+                  "more": "Chromosomes are made of DNA and contain genes. For each pair of chromosomes, an individual gets one from its mother and one from its father.",
+                  "pulseElement": "fv-chromosome-image"
+                },
+                {
+                  "element": "geniblocks genome",
+                  "text": "Genes",
+                  "more": "These white lines show where certain genes are on the chromosomes. Each gene affects a particular trait.",
+                  "pulseElement": "stripe"
+                },
+                {
+                  "element": "geniblocks genome",
+                  "text": "Alleles",
+                  "more": "Genes have different versions called “alleles” (ah-leelz). Change the versions of each gene to make different drakes.",
+                  "pulseElement": "simple-select"
+                },
+                {
+                  "element": "tutorial-activate",
+                  "text": "Tutorial button",
+                  "more": "Click the question mark button to see the tutorial again.",
+                  "location": "bottom-right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mission": 1,
+          "challenges":[
+            {
+              "challenge": 0,
+              "steps":[
+                {
+                  "element": "change-sex-toggle-group",
+                  "text": "Male/Female button",
+                  "more": "The third chromosome pair determines whether a dragon is male or female. Change the position of the button to change this chromosome pair.",
+                  "location": "bottom-left"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "missions": [
+        {
+          "mission": 0,
+          "challenges":[
+            {
+              "challenge": 0,
+              "steps":[
+                {
+                  "element": "basket",
+                  "text": "Sorting baskets",
+                  "more": "To sort the eggs, study the genotype in the Chromoscope and click on the basket that matches."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "missions": [
+        {
+          "mission": 0,
+          "challenges":[
+            {
+              "challenge": 0,
+              "steps":[
+                {
+                  "element": "organism-color-text",
+                  "text": "Drake Color",
+                  "more": "Each drake color is a combination of alleles from multiple genes.",
+                  "location": "bottom-center"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "missions": [
+        {
+          "mission": 0,
+          "challenges":[
+            {
+              "challenge": 0,
+              "steps":[
+                {
+                  "element": "genome parent",
+                  "text": "Select Chromosomes",
+                  "longText": "Click or tap one chromosome from each pair to add them to an egg or sperm cell.",
+                  "location": "bottom-left",
+                  "pulseElement": "chromosome-allele-container"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mission": 1,
+          "challenges":[
+            {
+              "challenge": 0,
+              "steps":[
+                {
+                  "element": "mother",
+                  "text": "Select Alleles",
+                  "longText": "Set the parent’s alleles so an offspring will match the Target Drake.",
+                  "location": "bottom-left"
+                },
+                {
+                  "element": "breed-button",
+                  "text": "Breed Button",
+                  "longText": "Click Breed to produce offspring. Breeding does not count as a Move!"
+                },
+                {
+                  "element": "clutch-counter",
+                  "text": "Offspring",
+                  "longText": "Click an offspring that matches the Target Drake.",
+                  "location": "middle-center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "mission": 2,
+          "challenges":[
+            {
+              "challenge": 0,
+              "steps":[
+                {
+                  "element": "mother",
+                  "text": "Select Alleles",
+                  "more": "Set the parent’s alleles so that they can produce both Target Offspring.",
+                  "location": "bottom-center"
+                },
+                {
+                  "element": "breed-button",
+                  "text": "Breed Button",
+                  "more": "You may click Breed to test if these parents can make both offspring."
+                },
+                {
+                  "element": "submit-parents-button",
+                  "text": "Submit Parents Button",
+                  "more": "Click Submit Parents when you think you have the parents that can produce BOTH drake offspring!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "missions": [
+        {
+          "mission": 0,
+          "challenges":[
+            {
+              "challenge": 0,
+              "steps":[
+                {
+                  "element": "father",
+                  "text": "Parent Drake",
+                  "more": "We don't know the alleles for this drake! Use breeding to figure them out.",
+                  "location": "top-center"
+                },
+                {
+                  "element": "breed-button",
+                  "text": "Breed Button",
+                  "more": "Click Breed. The offspring will give you clues about the unknown alleles."
+                },
+                {
+                  "element": "ready-to-answer-button",
+                  "text": "Ready To Answer Button",
+                  "more": "Click Ready to Answer when you think you know what alleles this drake has.",
+                  "location": "middle-right"
+                }
+              ]
+            },
+            {
+              "challenge": 1,
+              "steps":[
+                {
+                  "element": "father",
+                  "text": "Parent Drake",
+                  "more": "Notice this father has all recessive alleles. This will help you figure out the mother's hidden alleles!",
+                  "location": "bottom-right"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
